@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   width="101.342"
+   height="15.877"
+   viewBox="0 0 101.342 15.877"
+   sodipodi:docname="Lower_Teeth.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:export-filename="C:\Users\Willian\Documents\IVA2020\ArthurPrototype\Assets\Sprites\Prototypes\Mouth_Teeth.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#414141"
+     bordercolor="#000000"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0.74509804"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview4"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="5.8069664"
+     inkscape:cx="103.56106"
+     inkscape:cy="15.690929"
+     inkscape:window-x="-8"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     showguides="false" />
+  <circle
+     style="opacity:1;fill:#aa0000"
+     id="path818"
+     cx="86.676659"
+     cy="15.594663"
+     r="0" />
+  <path
+     style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.63434875"
+     d="M 82.18161,0.00196544 C 72.19696,0.06146544 59.919667,1.4435414 50.748338,1.4336064 32.363854,1.4489464 1.5378449,-2.8236336 1.5378449,6.3144654 1.0059369,7.5343074 0.51712393,8.6716394 -3.8065674e-5,9.8632934 A 81.470487,27.5 0 0 0 50.625663,15.875012 c 0.0017,-3e-6 0.0036,-10e-7 0.0054,0 l 0.08883,0.002 a 81.470487,27.5 0 0 0 0.02845,0 81.470487,27.5 0 0 0 50.593697,-5.9550776 c -0.49904,-1.149697 -0.97007,-2.244182 -1.48276,-3.419969 0,-5.296826 -7.69301,-6.55950196 -17.67767,-6.49999996 z"
+     id="path817-3-1"
+     inkscape:connector-curvature="0" />
+</svg>

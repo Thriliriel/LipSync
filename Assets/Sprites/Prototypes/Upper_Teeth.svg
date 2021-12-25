@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   width="134.15601"
+   height="30.464001"
+   viewBox="0 0 134.15601 30.464001"
+   sodipodi:docname="Upper_Teeth.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:export-filename="C:\Users\Willian\Documents\IVA2020\ArthurPrototype\Assets\Sprites\Prototypes\Mouth_Teeth.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#414141"
+     bordercolor="#000000"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0.74509804"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview4"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="5.8069664"
+     inkscape:cx="117.4031"
+     inkscape:cy="-6.4671177"
+     inkscape:window-x="-8"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     showguides="false" />
+  <circle
+     style="opacity:1;fill:#aa0000"
+     id="path818"
+     cx="86.676659"
+     cy="30.181664"
+     r="0" />
+  <path
+     style="opacity:1;fill:#ffffff;stroke:none;stroke-width:2.60374737"
+     d="M 67.079957,-2.089173e-6 A 84.569344,22.569342 0 0 0 -1.2107031e-4,8.8730449 C 0.41589593,11.564396 0.84441493,15.045839 1.2889409,16.810545 c 0,13.217975 45.7445091,13.625518 65.8300781,13.642578 20.047398,-0.02211 65.712891,1.068678 65.712891,-13.648437 0.45629,-1.81139 0.89709,-5.270667 1.32422,-7.9531251 A 84.569344,22.569342 0 0 0 67.079957,-2.089173e-6 Z"
+     id="path817-3"
+     inkscape:connector-curvature="0" />
+</svg>
