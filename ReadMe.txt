@@ -8,6 +8,8 @@ Download and import the asset into your project. You will see that it counts wit
 
 - The gameobject which receives the script must have an AudioSource component, because it is from where it gets the audio used for the lipSync. For the blendshapes, it also needs to have a SkinnedMeshRenderer with the blendshapes.
 
-- When the script is added, you can see that it has some parameters. If your model is based on Jaw Movement, you only need to mark the Is Jaw ticket. If your model is based on blendshapes, untick the Is Jaw ticket and inform the index of the blendshape which deals with the mouth movement, in Bs Index. 
+- When the script is added, you can see that it has some parameters. If your model is based on Jaw Movement, you only need to mark the Is Jaw ticket. If your model is based on blendshapes, untick the Is Jaw ticket and inform the index of the blendshape which deals with the mouth movement, in Bs Index.
+
+- In the script, the Aperture parameter controls how much the mouth open. The higher the value, the less the mouth opens. If you think yours is opening too much (or too little), you can change this value and test which is the best for you.
 
 That is it. If you have any question or whatever, just send a message =)
