@@ -15,11 +15,11 @@ D:/Docs/UnityProjects/TestLipSync
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53572
+55877
 Successfully changed project path to: D:/Docs/UnityProjects/TestLipSync
 D:/Docs/UnityProjects/TestLipSync
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 30.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001341 seconds.
+Registered in 0.001221 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 27.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.217 seconds
+- Completed reload, in  2.048 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2217ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (2048ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (464ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (399ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (180ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (171ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (154ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (33ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				RefreshPlugins (27ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001875 seconds.
+Registered in 0.001709 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
+- Completed reload, in  1.000 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1018ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1000ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (819ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (809ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
+			SetupTypeCache (253ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (329ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (301ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1567 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 71.8 MB.
 System memory in use after: 71.9 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2001.
-Total: 2.925600 ms (FindLiveObjects: 0.148500 ms CreateObjectMapping: 0.043800 ms MarkObjects: 2.706200 ms  DeleteObjects: 0.026200 ms)
+Total: 2.883700 ms (FindLiveObjects: 0.143600 ms CreateObjectMapping: 0.040600 ms MarkObjects: 2.679500 ms  DeleteObjects: 0.019300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,658 +132,1816 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/LipSync.cs
-  artifactKey: Guid(a10aa05c9df358f43a1a458b96e39553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LipSync.cs using Guid(a10aa05c9df358f43a1a458b96e39553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc0d5bd50f6abad9cd4e879b5720f60') in 0.031572 seconds 
-  Import took 0.033794 seconds .
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Behavior.cs
+  artifactKey: Guid(034ff52510bf94a57b59e824bec8eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Behavior.cs using Guid(034ff52510bf94a57b59e824bec8eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0514c0c7c96e4cda57aa45f8612972') in 0.042952 seconds 
+  Import took 0.061946 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.803727 seconds.
-  path: Assets/LipSync.cs
-  artifactKey: Guid(a10aa05c9df358f43a1a458b96e39553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LipSync.cs using Guid(a10aa05c9df358f43a1a458b96e39553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5fa41c708e1f3597383abf274bb16d') in 0.004062 seconds 
-  Import took 0.006352 seconds .
+  Time since last request: 0.004015 seconds.
+  path: Assets/Anima2D/Scripts/Ik2D.cs
+  artifactKey: Guid(327dce4e434c9404ebeeaa1b183cc89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Ik2D.cs using Guid(327dce4e434c9404ebeeaa1b183cc89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14d1af93a14990610e87874f9419747') in 0.007659 seconds 
+  Import took 0.013029 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001644 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.960 seconds
-Domain Reload Profiling:
-	ReloadAssembly (961ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (788ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (290ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (203ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.3 MB.
-System memory in use after: 71.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2003.
-Total: 3.094400 ms (FindLiveObjects: 0.147900 ms CreateObjectMapping: 0.042200 ms MarkObjects: 2.883500 ms  DeleteObjects: 0.020000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001700 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.231 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1231ms)
-		BeginReloadAssembly (129ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1030ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (424ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (300ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.3 MB.
-System memory in use after: 71.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2005.
-Total: 4.601700 ms (FindLiveObjects: 0.204000 ms CreateObjectMapping: 0.082200 ms MarkObjects: 4.286900 ms  DeleteObjects: 0.027200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001654 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.312 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1312ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1104ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (408ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.3 MB.
-System memory in use after: 71.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2007.
-Total: 4.001600 ms (FindLiveObjects: 0.250500 ms CreateObjectMapping: 0.121600 ms MarkObjects: 3.603200 ms  DeleteObjects: 0.024400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001721 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.278 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1279ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1081ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (361ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (425ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (294ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.3 MB.
-System memory in use after: 71.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2009.
-Total: 2.995600 ms (FindLiveObjects: 0.170800 ms CreateObjectMapping: 0.051600 ms MarkObjects: 2.749200 ms  DeleteObjects: 0.022700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001656 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
-Domain Reload Profiling:
-	ReloadAssembly (911ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (761ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (299ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (213ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.3 MB.
-System memory in use after: 71.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2011.
-Total: 3.145700 ms (FindLiveObjects: 0.144500 ms CreateObjectMapping: 0.051800 ms MarkObjects: 2.934300 ms  DeleteObjects: 0.014100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.876878 seconds.
-  path: Assets/LipSync.cs
-  artifactKey: Guid(a10aa05c9df358f43a1a458b96e39553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LipSync.cs using Guid(a10aa05c9df358f43a1a458b96e39553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8a78a4113485f46f411c6c4965a4c5') in 0.004953 seconds 
-  Import took 0.007479 seconds .
+  Time since last request: 0.002380 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexManipulator/VertexManipulator.cs
+  artifactKey: Guid(f2610140fed2d49d6b3568528c3cd55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexManipulator/VertexManipulator.cs using Guid(f2610140fed2d49d6b3568528c3cd55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb939f0203eb7b07f7322982d92de57') in 0.008754 seconds 
+  Import took 0.020019 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001602 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.990 seconds
-Domain Reload Profiling:
-	ReloadAssembly (991ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (813ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (308ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.3 MB.
-System memory in use after: 71.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2013.
-Total: 2.873100 ms (FindLiveObjects: 0.123400 ms CreateObjectMapping: 0.039700 ms MarkObjects: 2.694300 ms  DeleteObjects: 0.014700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001646 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
-Domain Reload Profiling:
-	ReloadAssembly (954ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (787ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (307ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.3 MB.
-System memory in use after: 71.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2015.
-Total: 2.711600 ms (FindLiveObjects: 0.141100 ms CreateObjectMapping: 0.041500 ms MarkObjects: 2.513600 ms  DeleteObjects: 0.014500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 402.019331 seconds.
+  Time since last request: 0.003448 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Geometry/Edge.cs
+  artifactKey: Guid(d648c36f5fa1b4507b2ca25e4df25a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Geometry/Edge.cs using Guid(d648c36f5fa1b4507b2ca25e4df25a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8713fb3e1bea192cdd3fcf2d856efff0') in 0.007672 seconds 
+  Import took 0.021115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004292 seconds.
+  path: Assets/Anima2D/Scripts/Editor/TextureEditorWindow.cs
+  artifactKey: Guid(03c5c506bf7c64b1da23c9c956733538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/TextureEditorWindow.cs using Guid(03c5c506bf7c64b1da23c9c956733538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccca85381823e683b881fe6a3100a097') in 0.007032 seconds 
+  Import took 0.022110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007447 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Geometry/EdgeEnumerator.cs
+  artifactKey: Guid(85bb1fd80234b4dad9a1414d69268bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Geometry/EdgeEnumerator.cs using Guid(85bb1fd80234b4dad9a1414d69268bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55930120217ad791f0d07a490b9ce60') in 0.007975 seconds 
+  Import took 0.025737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044587 seconds.
+  path: Assets/Anima2D/Scripts/Editor/SpriteMeshData.cs
+  artifactKey: Guid(9e715ea371f114f4a8d2584ad476634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/SpriteMeshData.cs using Guid(9e715ea371f114f4a8d2584ad476634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69bcff7715f077d4c84fc3545ab67853') in 0.006794 seconds 
+  Import took 0.022833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003612 seconds.
+  path: Assets/Anima2D/Scripts/Editor/WindowEditorTool.cs
+  artifactKey: Guid(26d12a9b4bf5bff4888a43ea72c88ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/WindowEditorTool.cs using Guid(26d12a9b4bf5bff4888a43ea72c88ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f388422aa72b84fd7d4eef74e1e687') in 0.006035 seconds 
+  Import took 0.014879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005189 seconds.
+  path: Assets/Anima2D/Lib/Editor/x86_64/Anima2D.bundle
+  artifactKey: Guid(88bc19417997a47739968cc7a27dc26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Lib/Editor/x86_64/Anima2D.bundle using Guid(88bc19417997a47739968cc7a27dc26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ee16208b351ed513738bc19aadf78b') in 0.022351 seconds 
+  Import took 0.035170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002821 seconds.
+  path: Assets/Anima2D/Scripts/IkSolver2D.cs
+  artifactKey: Guid(ed8c9347c4b814c6393f0e37481f4e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/IkSolver2D.cs using Guid(ed8c9347c4b814c6393f0e37481f4e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646463b297f0f5c0fc4a69aeef488150') in 0.006133 seconds 
+  Import took 0.024074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017313 seconds.
+  path: Assets/Anima2D/Examples/Scripts/SpriteCycleParallax.cs
+  artifactKey: Guid(22cdcac9591be401ea03354b7a7110c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Scripts/SpriteCycleParallax.cs using Guid(22cdcac9591be401ea03354b7a7110c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2ca41f2e14aa5fbe0bb42639921db2') in 0.006468 seconds 
+  Import took 0.008721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002519 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexAnimation/BakedMesh.cs
+  artifactKey: Guid(6196ac54c59b94f108eecda9dd6f2559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexAnimation/BakedMesh.cs using Guid(6196ac54c59b94f108eecda9dd6f2559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740b63bc52c83844e63777481c2f2755') in 0.006609 seconds 
+  Import took 0.008817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002524 seconds.
+  path: Assets/Anima2D/Scripts/Editor/TimeLine/TickHandler.cs
+  artifactKey: Guid(b1f784523475e4fbc8d3178a08bbfafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/TimeLine/TickHandler.cs using Guid(b1f784523475e4fbc8d3178a08bbfafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5611ad54b8d55f9c2f2d3eae619884fb') in 0.006386 seconds 
+  Import took 0.008577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002573 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/IO/IGeometryFormat.cs
+  artifactKey: Guid(a181574a098a74c91a4adf2cc3c6fbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/IO/IGeometryFormat.cs using Guid(a181574a098a74c91a4adf2cc3c6fbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd61e92c0bef11b73c7e742cfb0c5b6') in 0.006850 seconds 
+  Import took 0.009066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002216 seconds.
+  path: Assets/Anima2D/Scripts/Editor/OnionSkin/OnionLayerManager.cs
+  artifactKey: Guid(b5238df4a804d4c31935f458ab7af339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/OnionSkin/OnionLayerManager.cs using Guid(b5238df4a804d4c31935f458ab7af339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a6241bd969b77d41c242ea6bd7ac86') in 0.007193 seconds 
+  Import took 0.009857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002217 seconds.
+  path: Assets/Sprites/Prototypes/Upper_Teeth.svg
+  artifactKey: Guid(e855c2f8350e0694a975995e6136e614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Prototypes/Upper_Teeth.svg using Guid(e855c2f8350e0694a975995e6136e614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221e16ca1c6c05660863fe64cbf16501') in 0.011446 seconds 
+  Import took 0.013837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002812 seconds.
+  path: Assets/Anima2D/Scripts/IkSolver2DLimb.cs
+  artifactKey: Guid(893f4e6f40de34215b7bdd4622394730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/IkSolver2DLimb.cs using Guid(893f4e6f40de34215b7bdd4622394730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ff248aad6c310959375fe6f55bb3ff') in 0.006540 seconds 
+  Import took 0.008826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002262 seconds.
+  path: Assets/Anima2D/Examples/Shaders/VisibleInsideMask.shader
+  artifactKey: Guid(bd3c9bb3ca8714b8cbbf3d7b660362aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Shaders/VisibleInsideMask.shader using Guid(bd3c9bb3ca8714b8cbbf3d7b660362aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88e0611f6fda240b536ed6dc1cffb3c') in 0.009225 seconds 
+  Import took 0.012599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002112 seconds.
+  path: Assets/Anima2D/Scripts/Control.cs
+  artifactKey: Guid(cf2c003a4df9a2742b8fd6f94233ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Control.cs using Guid(cf2c003a4df9a2742b8fd6f94233ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef29367f69a75ad3ad12f4070af80779') in 0.006710 seconds 
+  Import took 0.051959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047190 seconds.
+  path: Assets/Anima2D/Scripts/Editor/BlendShape.cs
+  artifactKey: Guid(8d7b165077e6e1a4ab143ba5c3a6f76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/BlendShape.cs using Guid(8d7b165077e6e1a4ab143ba5c3a6f76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6778ff1c13eab866a6364b50e37e64ee') in 0.006239 seconds 
+  Import took 0.021175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002504 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/IO/FileWriter.cs
+  artifactKey: Guid(db773087cb9934528ace5cd537015e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/IO/FileWriter.cs using Guid(db773087cb9934528ace5cd537015e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02624c43819d6d7804591cbf7123f4b3') in 0.006290 seconds 
+  Import took 0.015049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003183 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Primitives.cs
+  artifactKey: Guid(cde60765d375b4ed58de62a5855759c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Primitives.cs using Guid(cde60765d375b4ed58de62a5855759c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e199899798858ce38593e64715895da') in 0.006329 seconds 
+  Import took 0.008588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002106 seconds.
+  path: Assets/Anima2D/Scripts/Editor/BoneUtils.cs
+  artifactKey: Guid(8dd5ff47da273493d9c15bc334297b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/BoneUtils.cs using Guid(8dd5ff47da273493d9c15bc334297b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cf08e9f0530a57df70ab34aa1ada78') in 0.006549 seconds 
+  Import took 0.009002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002285 seconds.
+  path: Assets/Anima2D/Scripts/EditorUpdaterProxy.cs
+  artifactKey: Guid(9d49ba4cc39814ca6bc7b0d71a6cd2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/EditorUpdaterProxy.cs using Guid(9d49ba4cc39814ca6bc7b0d71a6cd2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1b0de4e8cb8a1281590b3133c6d377') in 0.006295 seconds 
+  Import took 0.009219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002353 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Data/Osub.cs
+  artifactKey: Guid(bb388b6068a1848198f078e9b8e2c2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Data/Osub.cs using Guid(bb388b6068a1848198f078e9b8e2c2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc211fc34ce47fa8c906cade1703e30a') in 0.006535 seconds 
+  Import took 0.008762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003144 seconds.
+  path: Assets/Anima2D/Scripts/Editor/RectHandles.cs
+  artifactKey: Guid(3afb7638c04ae42ac84d166a5645ad47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/RectHandles.cs using Guid(3afb7638c04ae42ac84d166a5645ad47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc605c18fcfd04c6b4c3287a0212606') in 0.006511 seconds 
+  Import took 0.008755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002337 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/IO/IMeshFormat.cs
+  artifactKey: Guid(1453352292c044aedae57e186de9315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/IO/IMeshFormat.cs using Guid(1453352292c044aedae57e186de9315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc19e33c9975bda04c6a3a676c3683d2') in 0.006092 seconds 
+  Import took 0.008408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002203 seconds.
+  path: Assets/Anima2D/Scripts/IkSolver2DCCD.cs
+  artifactKey: Guid(d369edf573c0a46d19421cd6720016be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/IkSolver2DCCD.cs using Guid(d369edf573c0a46d19421cd6720016be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18912c9e43f119a1f34ebca6bf58792b') in 0.005971 seconds 
+  Import took 0.008228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002822 seconds.
+  path: Assets/Anima2D/Scripts/Editor/OnionSkin/OnionLayer.cs
+  artifactKey: Guid(1d69d281900984b539b4aeffdaf328db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/OnionSkin/OnionLayer.cs using Guid(1d69d281900984b539b4aeffdaf328db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb88f6b8f735f9838b74de0278a0aae1') in 0.006700 seconds 
+  Import took 0.044671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004411 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/IO
+  artifactKey: Guid(c98cbbaf18657634dadbe342fa4820d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/IO using Guid(c98cbbaf18657634dadbe342fa4820d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8d3e2247f0ff3e234c8e2bc6262793') in 0.006395 seconds 
+  Import took 0.010353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002684 seconds.
+  path: Assets/Anima2D/Scripts/Editor/TimeLine/TimeArea.cs
+  artifactKey: Guid(51e092fe888ad4be48658846931d9dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/TimeLine/TimeArea.cs using Guid(51e092fe888ad4be48658846931d9dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef404ef92323fe4e85a721952440b5bc') in 0.006537 seconds 
+  Import took 0.008836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007394 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Exporter/Exporter.cs
+  artifactKey: Guid(9ffee625f880444068dd5d3a154c600c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Exporter/Exporter.cs using Guid(9ffee625f880444068dd5d3a154c600c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22341f4dbadc62c98244601a4000224e') in 0.006302 seconds 
+  Import took 0.008548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028137 seconds.
+  path: Assets/Anima2D/Scripts/Editor/TimeLine/IDopeElement.cs
+  artifactKey: Guid(a698e46febae94e1890b81ba948e96e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/TimeLine/IDopeElement.cs using Guid(a698e46febae94e1890b81ba948e96e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08eadcaeaccd871b131e2eb01206bc1a') in 0.006328 seconds 
+  Import took 0.021309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002276 seconds.
+  path: Assets/SpriteMeshes
+  artifactKey: Guid(71a5a82a7ea87344c955e6e49bd062df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteMeshes using Guid(71a5a82a7ea87344c955e6e49bd062df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe59dcfd82662b089fe59d87c6e43352') in 0.006338 seconds 
+  Import took 0.014951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003014 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Tools/Voronoi.cs
+  artifactKey: Guid(554d6b0fe9c4d4c9397736a601764772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Tools/Voronoi.cs using Guid(554d6b0fe9c4d4c9397736a601764772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd79fc3c82ac0b87a2bba61f2c9083e') in 0.006959 seconds 
+  Import took 0.009206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002394 seconds.
+  path: Assets/Anima2D/Scripts/Editor/SerializedCache.cs
+  artifactKey: Guid(d474981ed7b54464188c6f98ce06b101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/SerializedCache.cs using Guid(d474981ed7b54464188c6f98ce06b101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57d3bb3f48a652f4d4569664d45b2a9') in 0.006403 seconds 
+  Import took 0.009477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002847 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Log/SimpleLog.cs
+  artifactKey: Guid(128e816d22ff04e16a3fce7b8e4e865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Log/SimpleLog.cs using Guid(128e816d22ff04e16a3fce7b8e4e865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947529e8c3b5624494813b86576f2aee') in 0.006330 seconds 
+  Import took 0.021589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002221 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Algorithm
+  artifactKey: Guid(c584ef700bec1ba45a12665355f4f812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Algorithm using Guid(c584ef700bec1ba45a12665355f4f812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e017757a5d3188c69f4b13c484c0c6c') in 0.006470 seconds 
+  Import took 0.009492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001700 seconds.
+  path: Assets/Anima2D/Scripts/Editor/OnionSkin
+  artifactKey: Guid(dc4cf5e6693c8f5448e0b6e4847cf238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/OnionSkin using Guid(dc4cf5e6693c8f5448e0b6e4847cf238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6855a613b3eaceb86c38e34ca19df0e4') in 0.006235 seconds 
+  Import took 0.008380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002339 seconds.
+  path: Assets/Anima2D/Scripts/Editor/TimeLine/TickStyle.cs
+  artifactKey: Guid(d763cbcc29f414f03821c2de7e214239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/TimeLine/TickStyle.cs using Guid(d763cbcc29f414f03821c2de7e214239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6bfa1163e9b03786dc47b94e0de5a4') in 0.006323 seconds 
+  Import took 0.009332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003056 seconds.
+  path: Assets/Anima2D/Scripts/Editor/PoseUtils.cs
+  artifactKey: Guid(e06d507589475425c919d9d4d7722190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/PoseUtils.cs using Guid(e06d507589475425c919d9d4d7722190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d945b659976d58da242e427697f287') in 0.006291 seconds 
+  Import took 0.012778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003585 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Quality.cs
+  artifactKey: Guid(13edadb66f46049079036d72c18ccfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Quality.cs using Guid(13edadb66f46049079036d72c18ccfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d1352e9d77789cdec4bb381ea5474b') in 0.006731 seconds 
+  Import took 0.035652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007266 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Resources/dotCyan.png
+  artifactKey: Guid(84902ee5ae17c406fb353455fe00c583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Resources/dotCyan.png using Guid(84902ee5ae17c406fb353455fe00c583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ce7472040dcd63d7dacf3c74707905') in 0.115817 seconds 
+  Import took 0.119448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004444 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Tools/QualityMeasure.cs
+  artifactKey: Guid(8b4c062f43ae34bebb588988f7ce5bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Tools/QualityMeasure.cs using Guid(8b4c062f43ae34bebb588988f7ce5bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303c5816c14de11db96f466dfc02d4db') in 0.006408 seconds 
+  Import took 0.016909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002299 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Geometry
+  artifactKey: Guid(3dc667191b74189418a302ffeb13831a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Geometry using Guid(3dc667191b74189418a302ffeb13831a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46fc5b7dfbf20baefcc31a126cbe20b') in 0.006367 seconds 
+  Import took 0.017212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003921 seconds.
+  path: Assets/Anima2D/Scripts/IkLimb2D.cs
+  artifactKey: Guid(99091f75dac5d4ede961d37f71798fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/IkLimb2D.cs using Guid(99091f75dac5d4ede961d37f71798fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088a127c4db745a57c4b9ea90d87a288') in 0.007446 seconds 
+  Import took 0.021618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006867 seconds.
+  path: Assets/Anima2D/Scripts/Editor/TimeLine/TimeLine.cs
+  artifactKey: Guid(4e51296b41ebf4189ba1aba1c5ddbc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/TimeLine/TimeLine.cs using Guid(4e51296b41ebf4189ba1aba1c5ddbc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f8044d22a04e8150a1783f0ea3b544') in 0.006826 seconds 
+  Import took 0.056144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008059 seconds.
+  path: Assets/Anima2D/Scripts/PoseManager.cs
+  artifactKey: Guid(533669fe702b5414cbcdd5a5efeb8e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/PoseManager.cs using Guid(533669fe702b5414cbcdd5a5efeb8e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f68a44d1c038d9a86d83a6a4de9592d') in 0.006159 seconds 
+  Import took 0.024177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006729 seconds.
+  path: Assets/Anima2D/Scripts/SpriteMesh.cs
+  artifactKey: Guid(c10c0be6d28fe4d539c4a39822fe301c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/SpriteMesh.cs using Guid(c10c0be6d28fe4d539c4a39822fe301c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5544cebdbf9a012a3fc42b1e717b8d9') in 0.006768 seconds 
+  Import took 0.012074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002457 seconds.
+  path: Assets/Anima2D/Scripts/Editor/IkCCD2DEditor.cs
+  artifactKey: Guid(90e9a45a558954086ae11eb3ce8dcb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/IkCCD2DEditor.cs using Guid(90e9a45a558954086ae11eb3ce8dcb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d75bbf9fa2656780c01a7cc76f3dbb1') in 0.006520 seconds 
+  Import took 0.011157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001567 seconds.
+  path: Assets/Anima2D/Examples/Scripts
+  artifactKey: Guid(893679ba57c593642b37fb96a0e0c95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Scripts using Guid(893679ba57c593642b37fb96a0e0c95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e448ac6b9521eff6e21892ad569bc76') in 0.006484 seconds 
+  Import took 0.021154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003052 seconds.
+  path: Assets/Anima2D/Examples/Shaders/VisibleOutsideMask.mat
+  artifactKey: Guid(48065ae8dcb0b4f1599f36be238a12e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Shaders/VisibleOutsideMask.mat using Guid(48065ae8dcb0b4f1599f36be238a12e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf2a91a0dd629c625374d5732e4733f') in 0.076002 seconds 
+  Import took 0.087941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005000 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Mesh.cs
+  artifactKey: Guid(85c3822fcd8a54f518280df4861f247f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Mesh.cs using Guid(85c3822fcd8a54f518280df4861f247f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb0a44136f7f43c63395e4169bf8548') in 0.006652 seconds 
+  Import took 0.023009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002573 seconds.
+  path: Assets/Anima2D/Examples/Scripts/Follow.cs
+  artifactKey: Guid(8fb1294fd76dd438da596ce01a96c742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Scripts/Follow.cs using Guid(8fb1294fd76dd438da596ce01a96c742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13853c2deeffa005e7564a0426667183') in 0.006717 seconds 
+  Import took 0.014676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013868 seconds.
+  path: Assets/Sprites/Prototypes/Lips.svg
+  artifactKey: Guid(8bb26e8de6e0ee240a5a8d6db51434b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Prototypes/Lips.svg using Guid(8bb26e8de6e0ee240a5a8d6db51434b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd831c7298264af141563fee4c236b3e2') in 0.006889 seconds 
+  Import took 0.009262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001978 seconds.
+  path: Assets/Anima2D/Scripts/Editor/CurveUtility.cs
+  artifactKey: Guid(05e87c68d8a21427fbed18e6ee880e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/CurveUtility.cs using Guid(05e87c68d8a21427fbed18e6ee880e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a749a7279ada7ae7677cb257ef21ad') in 0.006584 seconds 
+  Import took 0.009622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002394 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Tools/CuthillMcKee.cs
+  artifactKey: Guid(86991b75a172e4e75be5fdfaa246da29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Tools/CuthillMcKee.cs using Guid(86991b75a172e4e75be5fdfaa246da29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5334200659ea9ac5ba93d195e6ae0b9') in 0.006566 seconds 
+  Import took 0.008901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004369 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Log
+  artifactKey: Guid(d5ff55af58b1f5946917476d3fe61361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Log using Guid(d5ff55af58b1f5946917476d3fe61361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb09b5d1ea35f113d44ef9921e88ff7') in 0.007997 seconds 
+  Import took 0.010958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001985 seconds.
+  path: Assets/Anima2D/Examples/Scripts/SpringCollider.cs
+  artifactKey: Guid(03d5630d5c179475ab1e5a13a76f1a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Scripts/SpringCollider.cs using Guid(03d5630d5c179475ab1e5a13a76f1a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d10a3a49d71a872076d8b8a4fad1a3') in 0.007181 seconds 
+  Import took 0.020439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003074 seconds.
+  path: Assets/Anima2D/Scripts/Editor/AnimationWindowExtra/AnimationWindowImpl_2017_1.cs
+  artifactKey: Guid(1617d6fa55a124601ad5f37109b7d344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/AnimationWindowExtra/AnimationWindowImpl_2017_1.cs using Guid(1617d6fa55a124601ad5f37109b7d344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a776933c0a90a8de67c8e349fff8768a') in 0.007251 seconds 
+  Import took 0.018988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005446 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle
+  artifactKey: Guid(5d0f86ed7dc31f94a9e69468eb712fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle using Guid(5d0f86ed7dc31f94a9e69468eb712fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db49ec9bc999f52e9f5b23cebe361b13') in 0.006134 seconds 
+  Import took 0.008499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001938 seconds.
+  path: Assets/Anima2D/Scripts/Editor/AnimationFixer/AnimationFixer.cs
+  artifactKey: Guid(aa6246f681dba461b9e4a4d3ac247378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/AnimationFixer/AnimationFixer.cs using Guid(aa6246f681dba461b9e4a4d3ac247378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57bff6a857bc17c954e43dbb71f5d40') in 0.006578 seconds 
+  Import took 0.009071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005288 seconds.
+  path: Assets/Anima2D/Scripts/Editor/ColorRing.cs
+  artifactKey: Guid(6efea3388b2ff4f22bc4eb8953abda10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/ColorRing.cs using Guid(6efea3388b2ff4f22bc4eb8953abda10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca0b178cbb4ccffbb256b5fbb0e8d2a') in 0.007570 seconds 
+  Import took 0.010979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002489 seconds.
+  path: Assets/Anima2D/Scripts/Editor/SliceEditor.cs
+  artifactKey: Guid(db405e6911a4f8941a1e94d3bf9b2e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/SliceEditor.cs using Guid(db405e6911a4f8941a1e94d3bf9b2e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc046d34f3fbd1c7a49572b8623adc6') in 0.006463 seconds 
+  Import took 0.008778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016557 seconds.
+  path: Assets/Anima2D/Examples/Shaders/Unlit-Alpha-Cull-off.shader
+  artifactKey: Guid(5e0139ca0a3b04dbd85eb4171c920ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Shaders/Unlit-Alpha-Cull-off.shader using Guid(5e0139ca0a3b04dbd85eb4171c920ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e270c7064dc964f1ae8f6a00da2ca7d') in 0.006552 seconds 
+  Import took 0.008987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002526 seconds.
+  path: Assets/Anima2D/Readme.txt
+  artifactKey: Guid(a4b4f1ed82eef4ee89930360beee3f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Readme.txt using Guid(a4b4f1ed82eef4ee89930360beee3f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc74c632fcded3c66adbc6a453554043') in 0.023325 seconds 
+  Import took 0.041164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002503 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Data/Triangle.cs
+  artifactKey: Guid(b64d5a1afe0a54002a310377fef073a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Data/Triangle.cs using Guid(b64d5a1afe0a54002a310377fef073a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dabe1d5175853b3a713cafe4185e606') in 0.002639 seconds 
+  Import took 0.005008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003291 seconds.
+  path: Assets/Anima2D/Scripts/Editor
+  artifactKey: Guid(e65e60a93d565bd49b17063142b4994e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor using Guid(e65e60a93d565bd49b17063142b4994e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23a975ec1f015761322105d470eb137') in 0.006370 seconds 
+  Import took 0.021676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003097 seconds.
+  path: Assets/Anima2D/Scripts/Editor/ToolsExtra.cs
+  artifactKey: Guid(5dfb6091bac8043cc97e5deb900d60b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/ToolsExtra.cs using Guid(5dfb6091bac8043cc97e5deb900d60b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd6d07474593dc48ca02588d848f955') in 0.006771 seconds 
+  Import took 0.009812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024171 seconds.
+  path: Assets/Anima2D/Scripts/Editor/BlendShapeFrameEditor.cs
+  artifactKey: Guid(c7d4fa4e7bf71447cb31915c040e30b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/BlendShapeFrameEditor.cs using Guid(c7d4fa4e7bf71447cb31915c040e30b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387225afeab261a7f925f5e6f117e827') in 0.006659 seconds 
+  Import took 0.009079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003449 seconds.
+  path: Assets/Anima2D/Scripts/Editor/SpriteMeshAnimationEditor.cs
+  artifactKey: Guid(bb29a03cecfd848b59eb5d65feceb795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/SpriteMeshAnimationEditor.cs using Guid(bb29a03cecfd848b59eb5d65feceb795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824a71eef88e4578c4883ccdab68ac01') in 0.006472 seconds 
+  Import took 0.009472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044104 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/NewLocation.cs
+  artifactKey: Guid(cc1b60db68def4a92b2272ee87290078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/NewLocation.cs using Guid(cc1b60db68def4a92b2272ee87290078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ca2391a5f487acc163604cec6196ad') in 0.006626 seconds 
+  Import took 0.020267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010539 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Ik2DEditor.cs
+  artifactKey: Guid(28a2b4619044d4c39a943a09291dffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Ik2DEditor.cs using Guid(28a2b4619044d4c39a943a09291dffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1043fe47fdd078f18ea9a25ae8ef007e') in 0.006790 seconds 
+  Import took 0.016577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004799 seconds.
+  path: Assets/Anima2D/Scripts/Editor/MaskCreator.cs
+  artifactKey: Guid(a99eeda0ca2d240a59008cdca9ce1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/MaskCreator.cs using Guid(a99eeda0ca2d240a59008cdca9ce1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c25c93ed3ca8203cea63c45326e9db3') in 0.006733 seconds 
+  Import took 0.014939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003438 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Smoothing
+  artifactKey: Guid(82bb3bb64a181714b97f20282a41183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Smoothing using Guid(82bb3bb64a181714b97f20282a41183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73813a7b88d830e222aa065b75582df') in 0.006609 seconds 
+  Import took 0.009893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001760 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Tools
+  artifactKey: Guid(172403177e2c70146847244d3731665e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Tools using Guid(172403177e2c70146847244d3731665e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccfb8c5cc3d312a23e718023bf44469') in 0.006848 seconds 
+  Import took 0.010554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003164 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Geometry/ISegment.cs
+  artifactKey: Guid(21ead2e5b806343ac94d543c63ba1461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Geometry/ISegment.cs using Guid(21ead2e5b806343ac94d543c63ba1461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee35b9b3d4a00e2e9cd6fadd272f349') in 0.006716 seconds 
+  Import took 0.011796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002553 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Algorithm/Incremental.cs
+  artifactKey: Guid(6d4ac52e41f5e45c6835cab122dcc17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Algorithm/Incremental.cs using Guid(6d4ac52e41f5e45c6835cab122dcc17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc94a2b6d7a552d77fc697132703d71c') in 0.006494 seconds 
+  Import took 0.008822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001595 seconds.
+  path: Assets/Anima2D/Examples/Shaders
+  artifactKey: Guid(2663752d629bef54db3cd447f434baa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Shaders using Guid(2663752d629bef54db3cd447f434baa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f3685d85688a4b6c179432d3440f5d') in 0.006385 seconds 
+  Import took 0.008611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001490 seconds.
+  path: Assets/Anima2D/Scripts/Editor/AnimationFixer
+  artifactKey: Guid(93b89486d92a9f8408f0d62dab6b6a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/AnimationFixer using Guid(93b89486d92a9f8408f0d62dab6b6a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda33e8ff3673269eb7ce3dbeb1287a2') in 0.002442 seconds 
+  Import took 0.005288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001901 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Tools/Statistic.cs
+  artifactKey: Guid(8e85f51ff02024a7f91cbbfbaa7e3f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Tools/Statistic.cs using Guid(8e85f51ff02024a7f91cbbfbaa7e3f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78009d632d057c1f4345fd593b021f0') in 0.006591 seconds 
+  Import took 0.008922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002383 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Data/Otri.cs
+  artifactKey: Guid(38dcc47d9172640dc85d5c6a27b863ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Data/Otri.cs using Guid(38dcc47d9172640dc85d5c6a27b863ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30e850107698320121e903bf4bab41e') in 0.006192 seconds 
+  Import took 0.009054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002371 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexManipulator/IVertexManipulator.cs
+  artifactKey: Guid(00205760caa03457ab45ba8232524b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexManipulator/IVertexManipulator.cs using Guid(00205760caa03457ab45ba8232524b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c2fe48b2fcf7a7aebe08b0f9a35f3f') in 0.006938 seconds 
+  Import took 0.009275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002757 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexManipulator/RectManipulator/RectManipulator.cs
+  artifactKey: Guid(8023b4f6f397644de867d8b858bd694a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexManipulator/RectManipulator/RectManipulator.cs using Guid(8023b4f6f397644de867d8b858bd694a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b085bedec97f87a7e67759e4aeeebe14') in 0.006428 seconds 
+  Import took 0.015528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002431 seconds.
+  path: Assets/Anima2D/Scripts/Pose.cs
+  artifactKey: Guid(ae0543fe805424df99fe08ce744cbe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Pose.cs using Guid(ae0543fe805424df99fe08ce744cbe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2d2b85a919a3e2d0cdd0352412af95') in 0.006523 seconds 
+  Import took 0.008844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002426 seconds.
+  path: Assets/Anima2D/Scripts/Editor/AnimationWindowExtra/AnimationWindowImpl_50.cs
+  artifactKey: Guid(276c3aae4c4dd499cb88572428b44ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/AnimationWindowExtra/AnimationWindowImpl_50.cs using Guid(276c3aae4c4dd499cb88572428b44ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6669c44477df3a58f523b6532728b74c') in 0.006375 seconds 
+  Import took 0.012431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002495 seconds.
+  path: Assets/Anima2D/Scripts/Editor/SpriteMeshEditorWindow.cs
+  artifactKey: Guid(69ae4fd6f42d145009ab903686ea2fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/SpriteMeshEditorWindow.cs using Guid(69ae4fd6f42d145009ab903686ea2fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c131c37011279288781feed18b38a92') in 0.006289 seconds 
+  Import took 0.008614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001939 seconds.
+  path: Assets/Anima2D/Examples/Shaders/VertexLitOneDirectional.shader
+  artifactKey: Guid(96c3588b5aeb15746b81abc79b686a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Shaders/VertexLitOneDirectional.shader using Guid(96c3588b5aeb15746b81abc79b686a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2561c3c2466ae1959eb4a6a19ef5cacf') in 0.007579 seconds 
+  Import took 0.014835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037052 seconds.
+  path: Assets/Anima2D/Scripts/Editor/TimeLine/BlendShapeFrameDopeElement.cs
+  artifactKey: Guid(5c8204aae5206404f9a0f6ed1b6c138a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/TimeLine/BlendShapeFrameDopeElement.cs using Guid(5c8204aae5206404f9a0f6ed1b6c138a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecb826130309a0ad301aa35e9b18921') in 0.008375 seconds 
+  Import took 0.013402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001788 seconds.
+  path: Assets/Anima2D/Scripts/Editor/OnionSkin/MaterialCache.cs
+  artifactKey: Guid(b9bc33eca179e4af394c2739b6ceed13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/OnionSkin/MaterialCache.cs using Guid(b9bc33eca179e4af394c2739b6ceed13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a085e1f148e175a44e1acf5a027d001') in 0.006351 seconds 
+  Import took 0.009019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001314 seconds.
+  path: Assets/Sprites/Materials
+  artifactKey: Guid(8cdbffc2c4e39ac4bbb1095026998c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Materials using Guid(8cdbffc2c4e39ac4bbb1095026998c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba3c401abdb78c7d60abb45dd1bf113') in 0.006552 seconds 
+  Import took 0.008918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002405 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Enums.cs
+  artifactKey: Guid(df9dabb2d4c5342199f8a8758533a44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Enums.cs using Guid(df9dabb2d4c5342199f8a8758533a44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a70ba1ec243981bc60b1ec7b1ddef7') in 0.006740 seconds 
+  Import took 0.009219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001513 seconds.
+  path: Assets/Anima2D/Lib
+  artifactKey: Guid(a02841c447e5856439db2d125da6df78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Lib using Guid(a02841c447e5856439db2d125da6df78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec37ed33ca6f672ebef625f288353045') in 0.006163 seconds 
+  Import took 0.009205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001579 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(01db49dfe505f7d48907ee11165601c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(01db49dfe505f7d48907ee11165601c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2962cb0c1ee4b59a6bb8ecf40f4253b8') in 0.006045 seconds 
+  Import took 0.008291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002325 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexManipulator/RectManipulator/RectManipulatorData.cs
+  artifactKey: Guid(bb8b60e2bb20a4ba589276a30a7b7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexManipulator/RectManipulator/RectManipulatorData.cs using Guid(bb8b60e2bb20a4ba589276a30a7b7744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b959343e46cd6388282357ce92e4fd77') in 0.006588 seconds 
+  Import took 0.031817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039460 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexManipulator/RectManipulator
+  artifactKey: Guid(ea2c2d9a0fa99534ba17d6388350b1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexManipulator/RectManipulator using Guid(ea2c2d9a0fa99534ba17d6388350b1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2286035844fccd3cc72b87fdf03e7d2e') in 0.002513 seconds 
+  Import took 0.005678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003144 seconds.
+  path: Assets/Anima2D/Scripts/Editor/TimeLine/ZoomableArea.cs
+  artifactKey: Guid(38d4d68d702564f7e9015436cef0ebc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/TimeLine/ZoomableArea.cs using Guid(38d4d68d702564f7e9015436cef0ebc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3588ba8be746ac6ddc6c290e375e7676') in 0.006695 seconds 
+  Import took 0.022764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002420 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Carver.cs
+  artifactKey: Guid(505601a915fcb4ce791279fae666315c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Carver.cs using Guid(505601a915fcb4ce791279fae666315c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d8c61079fd72acd1369004a9b6885a') in 0.006553 seconds 
+  Import took 0.008905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001815 seconds.
+  path: Assets/Sprites/Materials/Iris.mat
+  artifactKey: Guid(ec929b2244aadf444922514883995385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Materials/Iris.mat using Guid(ec929b2244aadf444922514883995385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a382bafe8718c656efa8ce25b8f6850c') in 0.011659 seconds 
+  Import took 0.014129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005449 seconds.
   path: Assets/LipSync.cs
   artifactKey: Guid(a10aa05c9df358f43a1a458b96e39553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LipSync.cs using Guid(a10aa05c9df358f43a1a458b96e39553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcedc556613ba809257041251f720f13') in 0.005813 seconds 
+Start importing Assets/LipSync.cs using Guid(a10aa05c9df358f43a1a458b96e39553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f50ec863b6cabac32c7fc529578bdc') in 0.006770 seconds 
+  Import took 0.013126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003672 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexManipulator/RectManipulator/IRectManipulatorData.cs
+  artifactKey: Guid(ed03140f4be284ed9a8c783e189e93de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexManipulator/RectManipulator/IRectManipulatorData.cs using Guid(ed03140f4be284ed9a8c783e189e93de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80e22d9cb8d327b5dd14148cd96c9fe') in 0.006429 seconds 
+  Import took 0.008719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002338 seconds.
+  path: Assets/Anima2D/Scripts/Editor/OnionSkin/OnionLayer_56.cs
+  artifactKey: Guid(cbb28e31a21e8d943bc9b351f1418a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/OnionSkin/OnionLayer_56.cs using Guid(cbb28e31a21e8d943bc9b351f1418a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541cac59ed16e5d3f390377deceff15f') in 0.006313 seconds 
+  Import took 0.009690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002561 seconds.
+  path: Assets/Anima2D/Examples/Scripts/SpriteCycle.cs
+  artifactKey: Guid(5fc994a8551544553b255dfd17ccf558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Scripts/SpriteCycle.cs using Guid(5fc994a8551544553b255dfd17ccf558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708c6f1064ad091891473d4fa6565cc0') in 0.006319 seconds 
+  Import took 0.008673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001834 seconds.
+  path: Assets/Anima2D/Scripts/Editor/BlendShapeFrame.cs
+  artifactKey: Guid(f75ed09c9ce0056468d0f394cf5268ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/BlendShapeFrame.cs using Guid(f75ed09c9ce0056468d0f394cf5268ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6f2d3f7577030fc404f6758a574b1b') in 0.006739 seconds 
+  Import took 0.009060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002169 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexAnimation/TransformTracker.cs
+  artifactKey: Guid(054cba2959de141cc99bb00604d3d1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexAnimation/TransformTracker.cs using Guid(054cba2959de141cc99bb00604d3d1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985071b4228d842f8c48b27d89e7722c') in 0.006258 seconds 
+  Import took 0.015123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002153 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Log/SimpleLogItem.cs
+  artifactKey: Guid(68db920237fe34acfb56aa298b80aa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Log/SimpleLogItem.cs using Guid(68db920237fe34acfb56aa298b80aa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fd665cd3b4143b803e6c27384ea130') in 0.006357 seconds 
+  Import took 0.020698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002862 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Geometry/RegionPointer.cs
+  artifactKey: Guid(54efe52693aae4e42919cdebf24a8451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Geometry/RegionPointer.cs using Guid(54efe52693aae4e42919cdebf24a8451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dae07eafe5044c9bed700801550e2ff') in 0.006453 seconds 
+  Import took 0.008842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002112 seconds.
+  path: Assets/Anima2D/Examples/Scripts/SkinnedMeshCombiner.cs
+  artifactKey: Guid(a8fc50df0fc5b4b968a73718ea584282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Scripts/SkinnedMeshCombiner.cs using Guid(a8fc50df0fc5b4b968a73718ea584282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41b022e4e3ef7fde3da4dff48705cbe') in 0.006941 seconds 
+  Import took 0.009229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002093 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Geometry/Point.cs
+  artifactKey: Guid(3af9604360df6489ab3fa31d079bcf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Geometry/Point.cs using Guid(3af9604360df6489ab3fa31d079bcf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1e873a76c022524442cc8483d34893') in 0.006219 seconds 
+  Import took 0.008591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002514 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Resources/dotBlackBig.png
+  artifactKey: Guid(c460a47caef16422ba67e13ae4296e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Resources/dotBlackBig.png using Guid(c460a47caef16422ba67e13ae4296e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15bb9cf3ecb31bb7de7c52bb4c712cd') in 0.012365 seconds 
+  Import took 0.036028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005265 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Gizmos.cs
+  artifactKey: Guid(f27a2cfb7f80f4bc7b09777d757d1a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Gizmos.cs using Guid(f27a2cfb7f80f4bc7b09777d757d1a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d9881e6512d403ab2b853cd19463f4') in 0.006585 seconds 
+  Import took 0.010376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002175 seconds.
+  path: Assets/Anima2D/Scripts/Editor/AnimationBaker.cs
+  artifactKey: Guid(d7c3d9a32f30c4ae4bc775ff0636d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/AnimationBaker.cs using Guid(d7c3d9a32f30c4ae4bc775ff0636d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec51e72545348be5c1fd9b9754e6215') in 0.006495 seconds 
+  Import took 0.008827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001759 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexManipulator
+  artifactKey: Guid(c9cd7ef3ee835b64691867f6375a6c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexManipulator using Guid(c9cd7ef3ee835b64691867f6375a6c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6537e1ed34fbd07b91d813893ba096ff') in 0.002548 seconds 
+  Import took 0.005216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002498 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Algorithm/Dwyer.cs
+  artifactKey: Guid(56f32b8d13fa44ee8b3ab376e9e0803b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Algorithm/Dwyer.cs using Guid(56f32b8d13fa44ee8b3ab376e9e0803b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60e509fe822d5d4c35c9d6c0903de23') in 0.006718 seconds 
+  Import took 0.009445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014790 seconds.
+  path: Assets/Anima2D/Scripts/Editor/BindInfo.cs
+  artifactKey: Guid(c7880a19c219b43e0ab0f053bf0ed52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/BindInfo.cs using Guid(c7880a19c219b43e0ab0f053bf0ed52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f8287f6b4feaba6ca781427225da88') in 0.007252 seconds 
+  Import took 0.018417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002773 seconds.
+  path: Assets/Anima2D/Scripts/Editor/SpriteMeshCache.cs
+  artifactKey: Guid(41a86d89041a6403bbc6f97ab0e3f5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/SpriteMeshCache.cs using Guid(41a86d89041a6403bbc6f97ab0e3f5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c710e8b9b589ab8745e6bc56660e0b0') in 0.006232 seconds 
+  Import took 0.008582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003814 seconds.
+  path: Assets/Sprites/Prototypes/Mouth_Teeth.svg
+  artifactKey: Guid(d7023eb0b0ba5814bb8ec83370aa0143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Prototypes/Mouth_Teeth.svg using Guid(d7023eb0b0ba5814bb8ec83370aa0143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0937345dadd62298a508b24b831995f8') in 0.007096 seconds 
+  Import took 0.009889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002066 seconds.
+  path: Assets/Anima2D/Scripts/Editor/OnionSkin/OnionSkinWindow.cs
+  artifactKey: Guid(8f3da8c167dce440cbf0c440ef4f2625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/OnionSkin/OnionSkinWindow.cs using Guid(8f3da8c167dce440cbf0c440ef4f2625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0e643eb3f8f9b9cb3e0ea0b73f2c8a') in 0.007024 seconds 
+  Import took 0.009371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001931 seconds.
+  path: Assets/Anima2D/Scripts/Editor/SpriteMeshUtils.cs
+  artifactKey: Guid(6c5cfa5e6c00e4cb18be3426d449a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/SpriteMeshUtils.cs using Guid(6c5cfa5e6c00e4cb18be3426d449a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d78eba45c2a2c7cb8618b5158cc145c') in 0.006914 seconds 
+  Import took 0.009578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002575 seconds.
+  path: Assets/Anima2D/Scripts/SpriteMeshAnimation.cs
+  artifactKey: Guid(a394e4901b78a4e04a0a05a8faf4f0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/SpriteMeshAnimation.cs using Guid(a394e4901b78a4e04a0a05a8faf4f0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2024ad42a509c3367359e48034c6d20d') in 0.007291 seconds 
+  Import took 0.009949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002348 seconds.
+  path: Assets/Anima2D/Licenses.txt
+  artifactKey: Guid(be43faca17c49544cbb36ac063ac6e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Licenses.txt using Guid(be43faca17c49544cbb36ac063ac6e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e023f0b363faa658f5c632720ca5908') in 0.008625 seconds 
+  Import took 0.012155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002177 seconds.
+  path: Assets/Sprites/Prototypes/Old/Mouth_Teeth.svg
+  artifactKey: Guid(6959b7d9cfc80434da6da4faf41f7d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Prototypes/Old/Mouth_Teeth.svg using Guid(6959b7d9cfc80434da6da4faf41f7d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a7bd331e3110e88983c8827ecbbd9b') in 0.002613 seconds 
+  Import took 0.006101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001630 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexManipulator/RectManipulator/IRectManipulable.cs
+  artifactKey: Guid(f0d8e1091c01d4c508393e566125c380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexManipulator/RectManipulator/IRectManipulable.cs using Guid(f0d8e1091c01d4c508393e566125c380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ca52e192e484bdab8f08731847ad60') in 0.006838 seconds 
+  Import took 0.009236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021900 seconds.
+  path: Assets/Anima2D/Scripts/Bone2D.cs
+  artifactKey: Guid(03b157d7625014c58bfbad3513f40289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Bone2D.cs using Guid(03b157d7625014c58bfbad3513f40289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5676eb3993fa95d706a01fa694791b19') in 0.006898 seconds 
+  Import took 0.009599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004416 seconds.
+  path: Assets/Anima2D/Scripts/Editor/AnimationWindowExtra/AnimationWindowImpl_56.cs
+  artifactKey: Guid(3090c1554e8ca3f49a0070e7ca040a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/AnimationWindowExtra/AnimationWindowImpl_56.cs using Guid(3090c1554e8ca3f49a0070e7ca040a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb78e82431ea67024f7d7bbb638a909') in 0.007443 seconds 
+  Import took 0.010608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002166 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/IO/TriangleFormat.cs
+  artifactKey: Guid(f7a290166fab24e29be3e114e7c95490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/IO/TriangleFormat.cs using Guid(f7a290166fab24e29be3e114e7c95490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deaa5ecf2a583fc7913090f1c07f562c') in 0.007289 seconds 
+  Import took 0.009645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002167 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Smoothing/ISmoother.cs
+  artifactKey: Guid(6ffc6cc31c4334f7b9307e1145c9dc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Smoothing/ISmoother.cs using Guid(6ffc6cc31c4334f7b9307e1145c9dc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6f1e2530bf5aa5d248ce75a69e0dac') in 0.006680 seconds 
+  Import took 0.023417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031919 seconds.
+  path: Assets/Anima2D/Scripts/Editor/PoseManagerEditor.cs
+  artifactKey: Guid(7ce005d3146f247c688909dfe5a6ee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/PoseManagerEditor.cs using Guid(7ce005d3146f247c688909dfe5a6ee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6272c8116524b891f461736b2013892') in 0.006699 seconds 
+  Import took 0.009061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002750 seconds.
+  path: Assets/Sprites/Prototypes/Lower_Teeth.svg
+  artifactKey: Guid(6c6e5411954f7b44e8edc5a06ba8b435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Prototypes/Lower_Teeth.svg using Guid(6c6e5411954f7b44e8edc5a06ba8b435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5743019fc3f52c31aedf0a9687a4023e') in 0.006843 seconds 
+  Import took 0.009175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002239 seconds.
+  path: Assets/Anima2D/Examples/Scripts/SpringManager.cs
+  artifactKey: Guid(da4200b173d5a4dce91788c6eaba456f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Scripts/SpringManager.cs using Guid(da4200b173d5a4dce91788c6eaba456f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccb1d2e71f9816186a208f7f12919a6') in 0.006408 seconds 
+  Import took 0.008722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002542 seconds.
+  path: Assets/Anima2D/Scripts/Editor/IkGroupEditor.cs
+  artifactKey: Guid(b4db49fd3fc124deeb9c54e0ef53383d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/IkGroupEditor.cs using Guid(b4db49fd3fc124deeb9c54e0ef53383d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e1c1e37ca7d145277a5db5cf35d7dd') in 0.006916 seconds 
+  Import took 0.024939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007426 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Bone2DEditor.cs
+  artifactKey: Guid(1b458d58a3a7148058bd39593a0a46e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Bone2DEditor.cs using Guid(1b458d58a3a7148058bd39593a0a46e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b07c5ca90ee0094a43dc019ba67ea0') in 0.006602 seconds 
+  Import took 0.014112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003071 seconds.
+  path: Assets/Anima2D/Scripts/Editor/SpriteMeshEditor.cs
+  artifactKey: Guid(0f119c93e6518492286638c8de266388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/SpriteMeshEditor.cs using Guid(0f119c93e6518492286638c8de266388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fcf84667e10cc66d66a6256044b7d0') in 0.006127 seconds 
+  Import took 0.008507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002633 seconds.
+  path: Assets/Anima2D/Scripts/MathUtils.cs
+  artifactKey: Guid(ed46dac10942d4e288ef492b28646f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/MathUtils.cs using Guid(ed46dac10942d4e288ef492b28646f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b502b1a38eb445985e80db7e1818e32d') in 0.006659 seconds 
+  Import took 0.008977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001929 seconds.
+  path: Assets/Anima2D/Examples/Scripts/CharacterMotion.cs
+  artifactKey: Guid(03fb51d7f6b0c4d63844311d53c337df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Scripts/CharacterMotion.cs using Guid(03fb51d7f6b0c4d63844311d53c337df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5973d8ce60dacc948ee40d3ddc860946') in 0.006593 seconds 
+  Import took 0.015081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015939 seconds.
+  path: Assets/Anima2D/UserGuide.pdf
+  artifactKey: Guid(350eff1a329d3403e865f355a02f7c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/UserGuide.pdf using Guid(350eff1a329d3403e865f355a02f7c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dafe16ebeccd1d1345ac73ccad5fd7') in 0.043957 seconds 
+  Import took 0.046259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002513 seconds.
+  path: Assets/Anima2D/Scripts/Editor/SpriteMeshPostprocessor.cs
+  artifactKey: Guid(72d51583c49d741ca80a9b811fac4656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/SpriteMeshPostprocessor.cs using Guid(72d51583c49d741ca80a9b811fac4656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6658af4aaffc5dd7ef4f7c59176ffd3c') in 0.006539 seconds 
+  Import took 0.009258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002599 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/IO/InputTriangle.cs
+  artifactKey: Guid(cc739c87234a5408d8e23d3df936ff16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/IO/InputTriangle.cs using Guid(cc739c87234a5408d8e23d3df936ff16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225cbeb21bbf571ffafc552a1b050f3c') in 0.007207 seconds 
+  Import took 0.009581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002013 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Exporter
+  artifactKey: Guid(64a91120bb76ea848aad499b8ef7480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Exporter using Guid(64a91120bb76ea848aad499b8ef7480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063319ae31a4712e96dbc02438f9ad1b') in 0.006415 seconds 
+  Import took 0.008718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002156 seconds.
+  path: Assets/Anima2D/Scripts/Editor/AnimationWindowExtra/AnimationWindowExtra.cs
+  artifactKey: Guid(c965ff307ab134dbb8ad43b153561704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/AnimationWindowExtra/AnimationWindowExtra.cs using Guid(c965ff307ab134dbb8ad43b153561704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4afb09e8b9f31cd721f38ee49b7eea7') in 0.006662 seconds 
+  Import took 0.009086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003253 seconds.
+  path: Assets/Anima2D/Scripts/Editor/AnimationWindowExtra
+  artifactKey: Guid(41862eaa9939bdf478497fc64248faf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/AnimationWindowExtra using Guid(41862eaa9939bdf478497fc64248faf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599b2820accbb638c3a77c5fe865f719') in 0.002662 seconds 
+  Import took 0.005990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002340 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Algorithm/ITriangulator.cs
+  artifactKey: Guid(452e7b03812d544549659324548ba191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Algorithm/ITriangulator.cs using Guid(452e7b03812d544549659324548ba191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bfbbca78f5c3d97a784329d056c4b7') in 0.006419 seconds 
+  Import took 0.008738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002960 seconds.
+  path: Assets/Anima2D/Scripts/Editor/OnionSkin/ObjectPool.cs
+  artifactKey: Guid(082cfb9f5d6284f44a8b09f1c0f99534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/OnionSkin/ObjectPool.cs using Guid(082cfb9f5d6284f44a8b09f1c0f99534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8837cdbdacb87754435154b27e5b8191') in 0.006890 seconds 
+  Import took 0.009277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002815 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/IO/FileReader.cs
+  artifactKey: Guid(d326031976a6945c9a2e1fd94c428966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/IO/FileReader.cs using Guid(d326031976a6945c9a2e1fd94c428966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0485a8501ff97986ac429fff6d4875') in 0.006597 seconds 
+  Import took 0.009016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002570 seconds.
+  path: Assets/Anima2D/Scripts/Editor/BbwPlugin.cs
+  artifactKey: Guid(dcf81b8bd80534d8783dd6a3a6aaacbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/BbwPlugin.cs using Guid(dcf81b8bd80534d8783dd6a3a6aaacbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d6ce22ae59903565aee019f0b3257c') in 0.006301 seconds 
+  Import took 0.008731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002396 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/IO/DataReader.cs
+  artifactKey: Guid(87950ea3326114c43bf8f5833ad823ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/IO/DataReader.cs using Guid(87950ea3326114c43bf8f5833ad823ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb9b1fa725eac2c9aeceeab7d4f475e') in 0.006714 seconds 
+  Import took 0.009068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001732 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexAnimation
+  artifactKey: Guid(12a3c62ae1d6cf54aa23ffe4a3c5ac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexAnimation using Guid(12a3c62ae1d6cf54aa23ffe4a3c5ac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3d4617988253c6718a36ec7b88acd5') in 0.006749 seconds 
+  Import took 0.009109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001769 seconds.
+  path: Assets/Anima2D/Scripts/Editor/TimeLine
+  artifactKey: Guid(b0a4ca9ff2ce10645b6e4632f5b546ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/TimeLine using Guid(b0a4ca9ff2ce10645b6e4632f5b546ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268ab2822ccf6a19b5b1be6cba8ca170') in 0.002278 seconds 
+  Import took 0.004660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019800 seconds.
+  path: Assets/Anima2D/Scripts/Editor/SpriteMeshInstanceEditor.cs
+  artifactKey: Guid(aea20dcab01684d23810205e0a4a6e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/SpriteMeshInstanceEditor.cs using Guid(aea20dcab01684d23810205e0a4a6e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf2b78c14489386eb00916391ea858a') in 0.007414 seconds 
+  Import took 0.010345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002913 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Geometry/InputGeometry.cs
+  artifactKey: Guid(82141c28611044913b30edeb186705a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Geometry/InputGeometry.cs using Guid(82141c28611044913b30edeb186705a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87da05df02c883dda1ab6b86694d08c') in 0.007275 seconds 
+  Import took 0.027130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001978 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Log/ILogItem.cs
+  artifactKey: Guid(798e2b64c4e1f46dc85feeaee835e0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Log/ILogItem.cs using Guid(798e2b64c4e1f46dc85feeaee835e0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e79d735a6a42f4cdb4216722501306') in 0.006936 seconds 
+  Import took 0.015014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026321 seconds.
+  path: Assets/Anima2D/Scripts/Editor/ScriptableObjectUtility.cs
+  artifactKey: Guid(8e549144c721642308bf9649f283b840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/ScriptableObjectUtility.cs using Guid(8e549144c721642308bf9649f283b840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad7411fb54b92ea3fd53d34dfe6e145') in 0.006913 seconds 
+  Import took 0.009692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002025 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexAnimation/VertexSelection.cs
+  artifactKey: Guid(8d98f21b8191f4234909caa04c07fe82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexAnimation/VertexSelection.cs using Guid(8d98f21b8191f4234909caa04c07fe82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b83d1326d09450a1ddc8a774ee6ea7') in 0.006587 seconds 
+  Import took 0.008882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002338 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Edge.cs
+  artifactKey: Guid(dd003d6d892af429caeba2997798748b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Edge.cs using Guid(dd003d6d892af429caeba2997798748b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddd7eacb6530bf0a493c71353437b69') in 0.002149 seconds 
+  Import took 0.004513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001994 seconds.
+  path: Assets/Anima2D/Scripts/Editor/AnimationWindowExtra/AnimationWindowImpl_51_52_53_54_55.cs
+  artifactKey: Guid(5bc1e9f16920040f7beffb1a303e7e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/AnimationWindowExtra/AnimationWindowImpl_51_52_53_54_55.cs using Guid(5bc1e9f16920040f7beffb1a303e7e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271f311c398beb145ae602c70e777189') in 0.008912 seconds 
+  Import took 0.011545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002064 seconds.
+  path: Assets/Anima2D/Scripts/Editor/BoneWeight.cs
+  artifactKey: Guid(bf9479154ff064bc0b4e059e6378205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/BoneWeight.cs using Guid(bf9479154ff064bc0b4e059e6378205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00ecdef99d438e0f6b5bd77a0e077f0') in 0.006794 seconds 
+  Import took 0.009094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002434 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Tools/AdjacencyMatrix.cs
+  artifactKey: Guid(63b782183e5cc4fd0b9b5ac24f27f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Tools/AdjacencyMatrix.cs using Guid(63b782183e5cc4fd0b9b5ac24f27f914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b0090bc012cd4a32e035d6e5eccfe6') in 0.006251 seconds 
+  Import took 0.008576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001940 seconds.
+  path: Assets/Anima2D/Scripts/Editor/HandlesExtra.cs
+  artifactKey: Guid(8d6fc0e161ea54538bded5b0a7b6dafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/HandlesExtra.cs using Guid(8d6fc0e161ea54538bded5b0a7b6dafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15fbfc53628a5db4052e23774581071') in 0.006487 seconds 
+  Import took 0.008827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001466 seconds.
+  path: Assets/Anima2D/Examples
+  artifactKey: Guid(6e6a94700ac9cc64295b2a86bd5c4a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples using Guid(6e6a94700ac9cc64295b2a86bd5c4a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee169e898ef362a6287618a4f9dea24') in 0.006022 seconds 
+  Import took 0.008293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002598 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Resources/dotRed.png
+  artifactKey: Guid(cea0a0275548b4df08f37a6e225db32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Resources/dotRed.png using Guid(cea0a0275548b4df08f37a6e225db32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602a2db85b8b4ba8339d70d132a84478') in 0.010635 seconds 
+  Import took 0.012994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003266 seconds.
+  path: Assets/Anima2D/Examples/Shaders/VisibleInsideMask.mat
+  artifactKey: Guid(fdb5d9c8e02b24d439c0c699cf2ddee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Shaders/VisibleInsideMask.mat using Guid(fdb5d9c8e02b24d439c0c699cf2ddee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f32ba3c8c96102e9c2b251991ff8fb') in 0.012039 seconds 
+  Import took 0.014436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003200 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Hole.cs
+  artifactKey: Guid(2777fbe47d9e341b297b314bab597c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Hole.cs using Guid(2777fbe47d9e341b297b314bab597c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e1fe4d89f216c19d61210b49fa21d9') in 0.006702 seconds 
+  Import took 0.009043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002205 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Tools/VoronoiRegion.cs
+  artifactKey: Guid(58e23e72fa0f0481789f1062751fe90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Tools/VoronoiRegion.cs using Guid(58e23e72fa0f0481789f1062751fe90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14e4cd728b96df1f4d155d844d3c662') in 0.006268 seconds 
+  Import took 0.008875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002107 seconds.
+  path: Assets/Anima2D/Scripts/Editor/EditorGUIExtra.cs
+  artifactKey: Guid(46819ad241d02405ea01a7516d87cb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/EditorGUIExtra.cs using Guid(46819ad241d02405ea01a7516d87cb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd46b994e6668bd5e8784f54ec39e75b') in 0.006128 seconds 
+  Import took 0.017859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002763 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Resources/showBonesIcon.png
+  artifactKey: Guid(5c537fc8ed5d34931bf006b3f15bba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Resources/showBonesIcon.png using Guid(5c537fc8ed5d34931bf006b3f15bba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4954783577ad70f6fa2d254eb5ca4b71') in 0.010138 seconds 
+  Import took 0.012547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031370 seconds.
+  path: Assets/Anima2D/Scripts/IkGroup.cs
+  artifactKey: Guid(a245051d5faac4a72b3c22c5bdb4c32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/IkGroup.cs using Guid(a245051d5faac4a72b3c22c5bdb4c32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fb6ca92b9abd1a79c73d3fdab5cea0') in 0.006466 seconds 
+  Import took 0.008847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001926 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Geometry/BoundingBox.cs
+  artifactKey: Guid(36ffd3d4864ad404a9a0300f6a513e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Geometry/BoundingBox.cs using Guid(36ffd3d4864ad404a9a0300f6a513e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8428c0906a677741492bcb6de84311') in 0.006235 seconds 
+  Import took 0.033165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002494 seconds.
+  path: Assets/Anima2D/Scripts/Editor/IkUtils.cs
+  artifactKey: Guid(f942023ed8f88439aa7596becf45f402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/IkUtils.cs using Guid(f942023ed8f88439aa7596becf45f402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781adaec0b968c950d42255e53c1f351') in 0.006220 seconds 
+  Import took 0.011895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003244 seconds.
+  path: Assets/Anima2D/Examples/Shaders/VisibleOutsideMask.shader
+  artifactKey: Guid(4d819f148a73e4d538336155d321cc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Shaders/VisibleOutsideMask.shader using Guid(4d819f148a73e4d538336155d321cc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4167329c22a9cd34451c29d4ff5afc') in 0.002831 seconds 
+  Import took 0.005650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002357 seconds.
+  path: Assets/Anima2D/Scripts/IkCCD2D.cs
+  artifactKey: Guid(315ee65f910e84c6c8c8b891a9513484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/IkCCD2D.cs using Guid(315ee65f910e84c6c8c8b891a9513484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d180ca4cfef3427cea65c655ccc5690') in 0.007623 seconds 
+  Import took 0.014867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007483 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexManipulator/RectManipulator/RectManipulatorParams.cs
+  artifactKey: Guid(98b03b6de822b4716a770ebdfd304ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexManipulator/RectManipulator/RectManipulatorParams.cs using Guid(98b03b6de822b4716a770ebdfd304ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd6089c0bb223ca3739ef14e144b686') in 0.006638 seconds 
+  Import took 0.009821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097901 seconds.
+  path: Assets/Anima2D/Lib/Editor
+  artifactKey: Guid(fedffe9b91ce7884ebe84756c90f2499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Lib/Editor using Guid(fedffe9b91ce7884ebe84756c90f2499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9599b938d73306e23ec870d6d92b9f') in 0.009547 seconds 
+  Import took 0.018238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006093 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Tools/QuadTree.cs
+  artifactKey: Guid(9a2c3422578b547868d390c581db0fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Tools/QuadTree.cs using Guid(9a2c3422578b547868d390c581db0fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879269795e0baf882f607f270c958283') in 0.006857 seconds 
+  Import took 0.010195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002042 seconds.
+  path: Assets/Anima2D/Scripts/SpriteMeshInstance.cs
+  artifactKey: Guid(5ec17ceaa560940e9bf0dbeafc3a1971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/SpriteMeshInstance.cs using Guid(5ec17ceaa560940e9bf0dbeafc3a1971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e62e3eab7b8ce84819a36e6db808f60') in 0.006349 seconds 
+  Import took 0.008724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002244 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Sampler.cs
+  artifactKey: Guid(4efd2f4e6b756493cad2c93d7e94f1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Sampler.cs using Guid(4efd2f4e6b756493cad2c93d7e94f1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38622eeab871268fa3363b6092a80038') in 0.006692 seconds 
+  Import took 0.009072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001957 seconds.
+  path: Assets/Anima2D/Scripts/Editor/AnimationWindowExtra/IAnimationWindowImpl.cs
+  artifactKey: Guid(ae1f8b74314c34565adfbacc0a29be10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/AnimationWindowExtra/IAnimationWindowImpl.cs using Guid(ae1f8b74314c34565adfbacc0a29be10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5237fca4444b5d416230e7f992df3a') in 0.006445 seconds 
+  Import took 0.008783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001672 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Resources
+  artifactKey: Guid(e9155252c4ffad24f9622947a5022e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Resources using Guid(e9155252c4ffad24f9622947a5022e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8f78cc5ae3219ccb22171877024252') in 0.006573 seconds 
+  Import took 0.072839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007484 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Data/Vertex.cs
+  artifactKey: Guid(09a50bcc33bad413694da2d2f5708921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Data/Vertex.cs using Guid(09a50bcc33bad413694da2d2f5708921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcac618b56b02347e5bb8361057b0c6') in 0.007588 seconds 
+  Import took 0.010164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006736 seconds.
+  path: Assets/Anima2D/Lib/Editor/x64/Anima2D.dll
+  artifactKey: Guid(6eaae6b4b3037724b8cd08c9e0408573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Lib/Editor/x64/Anima2D.dll using Guid(6eaae6b4b3037724b8cd08c9e0408573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15a637de1416f77aa408941eca16808') in 0.013040 seconds 
+  Import took 0.021915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002316 seconds.
+  path: Assets/Anima2D/Scripts/Editor/MeshToolEditor.cs
+  artifactKey: Guid(94e392f01f8f0584c851d87ade57bef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/MeshToolEditor.cs using Guid(94e392f01f8f0584c851d87ade57bef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11962989c11a88a73ed41d0c99c67bbf') in 0.006724 seconds 
+  Import took 0.009397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002524 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Data/Segment.cs
+  artifactKey: Guid(5a40b11f027704454a09fbc626d0ce04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Data/Segment.cs using Guid(5a40b11f027704454a09fbc626d0ce04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348b903481f226f992e5054c67aa6008') in 0.006928 seconds 
+  Import took 0.015052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023320 seconds.
+  path: Assets/Anima2D/Scripts/Editor/BlendShapeEditor.cs
+  artifactKey: Guid(1fad5543f1b511443a395deaa561a14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/BlendShapeEditor.cs using Guid(1fad5543f1b511443a395deaa561a14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c761813bbaf2d6f403f59012295060') in 0.011083 seconds 
+  Import took 0.032273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011297 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35e33bd905e2931b3cc2fc0e7152cbb') in 0.006601 seconds 
+  Import took 0.009531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060696 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Data/BadSubseg.cs
+  artifactKey: Guid(4aa2275b837aa44bb9145dee50090201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Data/BadSubseg.cs using Guid(4aa2275b837aa44bb9145dee50090201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49747425ca98fbf00f6578e5f2da693') in 0.006651 seconds 
+  Import took 0.016899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012507 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexAnimation/SpriteMeshInstanceTracker.cs
+  artifactKey: Guid(c981e4c7f35c042fe973072806bcbd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexAnimation/SpriteMeshInstanceTracker.cs using Guid(c981e4c7f35c042fe973072806bcbd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da64ba54535b43f18a5c0bdbd960373e') in 0.006888 seconds 
+  Import took 0.017388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002348 seconds.
+  path: Assets/Anima2D/Scripts/Editor/EditorExtra.cs
+  artifactKey: Guid(4388d0f9f81c74d66b19f198d097db18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/EditorExtra.cs using Guid(4388d0f9f81c74d66b19f198d097db18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5695f3ca7d5fd9cbb31c2bbd7e03dfbe') in 0.006747 seconds 
+  Import took 0.009043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002002 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Node.cs
+  artifactKey: Guid(2eae94e2a1cfa884a81453d194003f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Node.cs using Guid(2eae94e2a1cfa884a81453d194003f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528bdda30a2d98671bf42e0d9387d7c1') in 0.006487 seconds 
+  Import took 0.008788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002913 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Resources/dotYellow.png
+  artifactKey: Guid(653258c388ea8424db08ebf1e13eb628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Resources/dotYellow.png using Guid(653258c388ea8424db08ebf1e13eb628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1712d69c4c4e63040bffae7df98db486') in 0.011374 seconds 
+  Import took 0.013768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004180 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Data/BadTriangle.cs
+  artifactKey: Guid(5812bd3bc171b4cb9a1bc6036fa15423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Data/BadTriangle.cs using Guid(5812bd3bc171b4cb9a1bc6036fa15423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa817c859fed9f5f6a281cfffd7b2f1a') in 0.006536 seconds 
+  Import took 0.009258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002292 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/BadTriQueue.cs
+  artifactKey: Guid(bd7828c7cb8bf487ca75969ac9d172ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/BadTriQueue.cs using Guid(bd7828c7cb8bf487ca75969ac9d172ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec990ee60838a2982f7f2ed3c781e35c') in 0.006812 seconds 
   Import took 0.009134 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001706 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.035 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1035ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (866ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (287ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.4 MB.
-System memory in use after: 71.5 MB.
+Received Import Request.
+  Time since last request: 0.002532 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Geometry/ITriangle.cs
+  artifactKey: Guid(88b09b3aea72e4f05b46c44c667957f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Geometry/ITriangle.cs using Guid(88b09b3aea72e4f05b46c44c667957f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d40bc02465651be151f4709f51a49c') in 0.006524 seconds 
+  Import took 0.008897 seconds .
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2017.
-Total: 2.956000 ms (FindLiveObjects: 0.151600 ms CreateObjectMapping: 0.044200 ms MarkObjects: 2.745400 ms  DeleteObjects: 0.014100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.171935 seconds.
-  path: Assets/LipSync.cs
-  artifactKey: Guid(a10aa05c9df358f43a1a458b96e39553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LipSync.cs using Guid(a10aa05c9df358f43a1a458b96e39553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe48ffa56fc4be5eaf0521696c7b7596') in 0.004563 seconds 
-  Import took 0.006851 seconds .
+  Time since last request: 0.005073 seconds.
+  path: Assets/Anima2D/Scripts/Editor/EditorEventHandler.cs
+  artifactKey: Guid(4cf12c2e6248442208c8e44d5eb786c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/EditorEventHandler.cs using Guid(4cf12c2e6248442208c8e44d5eb786c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f6ed3836b5bc1ed88abbbdb53268fa') in 0.006872 seconds 
+  Import took 0.010011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009780 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Algorithm/SweepLine.cs
+  artifactKey: Guid(2d5335df599a9446384db436a98d5fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Algorithm/SweepLine.cs using Guid(2d5335df599a9446384db436a98d5fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe268ad5fd72af66edf81448321788c') in 0.006961 seconds 
+  Import took 0.016113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001661 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(4c4a8fcc35d6e4d4ba532c69d046df8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(4c4a8fcc35d6e4d4ba532c69d046df8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530531af0dc70d046b0494966a08595e') in 0.009297 seconds 
+  Import took 0.011590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002244 seconds.
+  path: Assets/Sprites/Prototypes/Mouth_Open.svg
+  artifactKey: Guid(b63358d322df0c74a89818401db5cf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Prototypes/Mouth_Open.svg using Guid(b63358d322df0c74a89818401db5cf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1baf864ba2bada020f6391e94540d3e8') in 0.006848 seconds 
+  Import took 0.009582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003197 seconds.
+  path: Assets/Anima2D/Lib/Editor/x86_64
+  artifactKey: Guid(ec91f9e2d95e266488f40244348dab75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Lib/Editor/x86_64 using Guid(ec91f9e2d95e266488f40244348dab75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8473517b7e27fe9a42bd8fed1cc677') in 0.006492 seconds 
+  Import took 0.008971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002708 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Resources/dotYellowBig.png
+  artifactKey: Guid(ad57fc2a5742e401dbd68fdd7021b6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Resources/dotYellowBig.png using Guid(ad57fc2a5742e401dbd68fdd7021b6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daa2677e3cdb2b1026f5b7d0f36d450') in 0.012051 seconds 
+  Import took 0.014663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013993 seconds.
+  path: Assets/Anima2D/Version.txt
+  artifactKey: Guid(ce35b494a9b994503a0fdcdfeb39549d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Version.txt using Guid(ce35b494a9b994503a0fdcdfeb39549d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fa33d3e6ae2eea812aee30285e2fff') in 0.008247 seconds 
+  Import took 0.010763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002963 seconds.
+  path: Assets/Sprites/Materials/Pupil.mat
+  artifactKey: Guid(f9a3e8ae08ea69e479aa4e8da3d878a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Materials/Pupil.mat using Guid(f9a3e8ae08ea69e479aa4e8da3d878a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31fba2ff779b8d5d214af3d6ad716f7') in 0.011406 seconds 
+  Import took 0.013876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006174 seconds.
+  path: Assets/Anima2D/Scripts
+  artifactKey: Guid(030ef43d1112edb40bcecb567ccaf39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts using Guid(030ef43d1112edb40bcecb567ccaf39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753372319ec2f7a63b03f593aaf878b8') in 0.006928 seconds 
+  Import took 0.009757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002169 seconds.
+  path: Assets/Anima2D/Scripts/Editor/IkLimb2DEditor.cs
+  artifactKey: Guid(05e4f2701491b4ddd89a2412db245572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/IkLimb2DEditor.cs using Guid(05e4f2701491b4ddd89a2412db245572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2031a0c3c4a489c6129080e72a441ff') in 0.006808 seconds 
+  Import took 0.009127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017870 seconds.
+  path: Assets/Anima2D/Examples/Scripts/SpringBone.cs
+  artifactKey: Guid(e1b17e4b594d643a89eb952f2bdb2e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Examples/Scripts/SpringBone.cs using Guid(e1b17e4b594d643a89eb952f2bdb2e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e684612dc5ca1d77d1ee0f592df75cd') in 0.006715 seconds 
+  Import took 0.009944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002554 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/IO/DebugWriter.cs
+  artifactKey: Guid(16d3ff6fd45504522be8898f3058ceb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/IO/DebugWriter.cs using Guid(16d3ff6fd45504522be8898f3058ceb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffbbab92304ddec00ace27327276147') in 0.006509 seconds 
+  Import took 0.008861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001576 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Data
+  artifactKey: Guid(bfa8b9aa7d800f44ebf36fed7a4479fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Data using Guid(bfa8b9aa7d800f44ebf36fed7a4479fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871d1ab53920c4f1399a1ae10db36504') in 0.006403 seconds 
+  Import took 0.008669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002233 seconds.
+  path: Assets/Anima2D/Scripts/Editor/ContextMenu.cs
+  artifactKey: Guid(13fba999ffc1b4a7c8eba21bd77be3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/ContextMenu.cs using Guid(13fba999ffc1b4a7c8eba21bd77be3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca9740cb8573619b0374af3c4bd7bd5') in 0.006282 seconds 
+  Import took 0.008657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002512 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Log/ILog.cs
+  artifactKey: Guid(9b0c2f4d101b947f0a1464e3cc4f0966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Log/ILog.cs using Guid(9b0c2f4d101b947f0a1464e3cc4f0966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94570e4748dd9d0bf3ce1a72da9bf7f') in 0.006369 seconds 
+  Import took 0.008660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001961 seconds.
+  path: Assets/Anima2D/Scripts/Editor/IndexedEdge.cs
+  artifactKey: Guid(291501800867140b3ba54c0b3e1e54df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/IndexedEdge.cs using Guid(291501800867140b3ba54c0b3e1e54df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67489bdc8bf09530de4a58c4b136334') in 0.006436 seconds 
+  Import took 0.008926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003394 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Smoothing/SimpleSmoother.cs
+  artifactKey: Guid(e181a7f47c3d844548c10ebfad251df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Smoothing/SimpleSmoother.cs using Guid(e181a7f47c3d844548c10ebfad251df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fd4264d0a799161da546c06ee48a5b') in 0.007203 seconds 
+  Import took 0.010113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002050 seconds.
+  path: Assets/Sprites/Prototypes/Mouth.svg
+  artifactKey: Guid(490db04764bdd2d43bbe43d41859b049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Prototypes/Mouth.svg using Guid(490db04764bdd2d43bbe43d41859b049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756d671a0294a6ca9c486c8fbc79927f') in 0.006785 seconds 
+  Import took 0.009172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002240 seconds.
+  path: Assets/Anima2D/Scripts/Editor/WeightEditor.cs
+  artifactKey: Guid(b67c67a280b524f15b96c16d4933c9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/WeightEditor.cs using Guid(b67c67a280b524f15b96c16d4933c9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01c8c2cd90aaafa4f5e7c5a101b80ae') in 0.006471 seconds 
+  Import took 0.008811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002256 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/TriangleLocator.cs
+  artifactKey: Guid(5f5505ceb547042909596a146de64653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/TriangleLocator.cs using Guid(5f5505ceb547042909596a146de64653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbde3149ab8a539cc2916b94c7b2b47d') in 0.006719 seconds 
+  Import took 0.016096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003486 seconds.
+  path: Assets/Anima2D/Scripts/Editor/SelectionRectTool.cs
+  artifactKey: Guid(c44803939cbd940809e801f192ca978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/SelectionRectTool.cs using Guid(c44803939cbd940809e801f192ca978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f901bf95c16e446f23e2cd6e972b0e4') in 0.006875 seconds 
+  Import took 0.009288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002292 seconds.
+  path: Assets/Anima2D/Scripts/Editor/EditorUpdater.cs
+  artifactKey: Guid(adc5765549a8f4d838c9b63507ccfcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/EditorUpdater.cs using Guid(adc5765549a8f4d838c9b63507ccfcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4dfcf340d255a029a600c9fc95f33d') in 0.006929 seconds 
+  Import took 0.009705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002250 seconds.
+  path: Assets/Anima2D/Scripts/Editor/InspectorEditor.cs
+  artifactKey: Guid(07040d2550d0745079dc599072435c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/InspectorEditor.cs using Guid(07040d2550d0745079dc599072435c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e914689863ec2964d89e63ad4625bd1c') in 0.006841 seconds 
+  Import took 0.009817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002974 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Tools/BoundedVoronoi.cs
+  artifactKey: Guid(a2e00daa1f6114aa180d42c8f4b6e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Tools/BoundedVoronoi.cs using Guid(a2e00daa1f6114aa180d42c8f4b6e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01196d56ee87994c2d1444b42fcecf8b') in 0.006336 seconds 
+  Import took 0.008694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061079 seconds.
+  path: Assets/Anima2D/Lib/Editor/x64
+  artifactKey: Guid(64eba35ba45873549831e8ab09b4d416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Lib/Editor/x64 using Guid(64eba35ba45873549831e8ab09b4d416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9c2e98bda8bf9186daef35144d35dc') in 0.006963 seconds 
+  Import took 0.010575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006183 seconds.
+  path: Assets/Anima2D/Lib/Editor/x64/Anima2D.so
+  artifactKey: Guid(de14b5b48fe462148aca8fb6310959c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Lib/Editor/x64/Anima2D.so using Guid(de14b5b48fe462148aca8fb6310959c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c978e360f38a65ba95a2614c29e401c') in 0.008839 seconds 
+  Import took 0.029598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005765 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Resources/SpriteMesh Icon.png
+  artifactKey: Guid(d06266ce538c649a1b72065b11f39a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Resources/SpriteMesh Icon.png using Guid(d06266ce538c649a1b72065b11f39a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094ca0432d7da342a9e1fdace7904e16') in 0.012698 seconds 
+  Import took 0.015320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003490 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Tools/RegionIterator.cs
+  artifactKey: Guid(8c39d07edeac04bb5abe4b01c683959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Tools/RegionIterator.cs using Guid(8c39d07edeac04bb5abe4b01c683959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53296b919354c2e216580456bd4e052') in 0.007231 seconds 
+  Import took 0.017379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003359 seconds.
+  path: Assets/Anima2D/Scripts/Editor/VertexManipulator/IVertexManipulable.cs
+  artifactKey: Guid(add18c76c7a1a4f90bf0372999963ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/VertexManipulator/IVertexManipulable.cs using Guid(add18c76c7a1a4f90bf0372999963ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f70ea3adb16e8d8da38dfbea5b5e1a2') in 0.006883 seconds 
+  Import took 0.009530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004186 seconds.
+  path: Assets/Anima2D/Scripts/Editor/Triangle/Tools/IVoronoi.cs
+  artifactKey: Guid(9effcd0f10dc54c95921d8463907e923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anima2D/Scripts/Editor/Triangle/Tools/IVoronoi.cs using Guid(9effcd0f10dc54c95921d8463907e923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e37d83d82dee8bca77762fc78b8b991') in 0.007518 seconds 
+  Import took 0.030683 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001596 seconds.
+Registered in 0.001931 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.922 seconds
+- Completed reload, in  0.945 seconds
 Domain Reload Profiling:
-	ReloadAssembly (922ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (945ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (768ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (783ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
+			SetupTypeCache (253ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (295ms)
+			SetupLoadedEditorAssemblies (298ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (209ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.4 MB.
-System memory in use after: 71.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2019.
-Total: 3.099700 ms (FindLiveObjects: 0.140200 ms CreateObjectMapping: 0.045200 ms MarkObjects: 2.899700 ms  DeleteObjects: 0.014000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001682 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
-Domain Reload Profiling:
-	ReloadAssembly (909ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (744ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (294ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (211ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (210ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.4 MB.
-System memory in use after: 71.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2021.
-Total: 2.730000 ms (FindLiveObjects: 0.127900 ms CreateObjectMapping: 0.041100 ms MarkObjects: 2.547000 ms  DeleteObjects: 0.013000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001736 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
-Domain Reload Profiling:
-	ReloadAssembly (952ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (794ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (324ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.4 MB.
-System memory in use after: 71.5 MB.
+Unloading 1558 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2023.
-Total: 3.423400 ms (FindLiveObjects: 0.225800 ms CreateObjectMapping: 0.074300 ms MarkObjects: 3.100500 ms  DeleteObjects: 0.021400 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2056.
+Total: 3.039100 ms (FindLiveObjects: 0.155700 ms CreateObjectMapping: 0.043900 ms MarkObjects: 2.823800 ms  DeleteObjects: 0.014500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -798,124 +1956,26 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.131813 seconds.
-  path: Assets/LipSync.cs
-  artifactKey: Guid(a10aa05c9df358f43a1a458b96e39553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LipSync.cs using Guid(a10aa05c9df358f43a1a458b96e39553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea65cbd3349bf06c6c147f53c83e90f6') in 0.004409 seconds 
-  Import took 0.006687 seconds .
+  Time since last request: 127.163648 seconds.
+  path: Assets/AssetStoreTools/Editor
+  artifactKey: Guid(cf7638d43c18cec40b4b9312969b5378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Editor using Guid(cf7638d43c18cec40b4b9312969b5378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f19736748dacca330f0db031747ea05') in 0.005026 seconds 
+  Import took 0.007410 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001671 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.916 seconds
-Domain Reload Profiling:
-	ReloadAssembly (916ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (756ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (287ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.4 MB.
-System memory in use after: 71.5 MB.
+Received Import Request.
+  Time since last request: 0.946921 seconds.
+  path: Assets/AssetStoreTools/Editor/AssetStoreTools.dll
+  artifactKey: Guid(db89eddc1931309408191e6d4644d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Editor/AssetStoreTools.dll using Guid(db89eddc1931309408191e6d4644d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b3ba8619fe99b34b222c8180099554') in 0.006666 seconds 
+  Import took 0.020329 seconds .
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2025.
-Total: 3.075900 ms (FindLiveObjects: 0.143900 ms CreateObjectMapping: 0.041000 ms MarkObjects: 2.876500 ms  DeleteObjects: 0.013600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001652 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
-Domain Reload Profiling:
-	ReloadAssembly (906ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (735ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (280ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.4 MB.
-System memory in use after: 71.5 MB.
+Received Import Request.
+  Time since last request: 86.469000 seconds.
+  path: Assets/AssetStoreTools
+  artifactKey: Guid(8466fccc5fcd4d74ea48c2a9411d446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools using Guid(8466fccc5fcd4d74ea48c2a9411d446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6036d280d9252981b2cbc5cbb183f21c') in 0.021316 seconds 
+  Import took 0.045650 seconds .
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2027.
-Total: 3.021200 ms (FindLiveObjects: 0.165000 ms CreateObjectMapping: 0.061200 ms MarkObjects: 2.776000 ms  DeleteObjects: 0.017700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

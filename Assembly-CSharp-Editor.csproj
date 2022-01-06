@@ -191,6 +191,7 @@
     <Compile Include="Assets\Anima2D\Scripts\Editor\EditorUpdater.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\AssetStoreTools\Editor\AssetStoreTools.dll" />
     <None Include="Assets\Anima2D\Lib\Editor\x64\Anima2D.dll" />
   </ItemGroup>
   <ItemGroup>
@@ -439,6 +440,9 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.11.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="AssetStoreTools">
+      <HintPath>Assets\AssetStoreTools\Editor\AssetStoreTools.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

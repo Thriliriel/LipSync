@@ -16,6 +16,7 @@ public class LipSync : MonoBehaviour
     private float y0;
     public AudioSource audio;
     public int bsIndex;
+    public float aperture;
     private float[] freqData;
     private int nSamples;
     private int qSamples = 0;
@@ -51,8 +52,8 @@ public class LipSync : MonoBehaviour
         //if it is jaw, just change the scale of the mouth
         if (isJaw)
         {
-            //float newY = y0 + BandVol(frqLow, frqHigh) * (volume/4);
-            float newY = y0 - MovingAverage(BandVol(frqLow, frqHigh)) * volume / 4;
+            //float newY = y0 + BandVol(frqLow, frqHigh) * (volume/aperture);
+            float newY = y0 - MovingAverage(BandVol(frqLow, frqHigh)) * volume / aperture;
             transform.localScale = new Vector3(transform.localScale.x, newY, transform.localScale.z);
         }//otherwise, use the BS
         else
